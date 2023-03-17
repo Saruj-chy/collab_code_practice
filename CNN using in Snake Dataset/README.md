@@ -227,7 +227,9 @@ model.add(layers.Dropout(0.5))
 model.add(layers.Dense(1, activation="sigmoid"))
 model.summary()
 ```
-``
+
+# Output:
+```
 
 Model: "sequential"
 _________________________________________________________________
@@ -295,7 +297,7 @@ Trainable params: 1,218,529
 Non-trainable params: 576
 _________________________________________________________________
 
-``
+```
 
 ```
 model.compile(loss="binary_crossentropy", 
@@ -361,6 +363,10 @@ print("Train Accuracy:{:.3f}".format(modelHistory.history['accuracy'][-1]))
 print("Test Accuracy:{:.3f}".format(modelHistory.history['val_accuracy'][-1]))
 show_model_history(modelHistory=modelHistory, model_name="")
 ```
+
+# Output
+
+```
 Epoch 1/5
 24/24 [==============================] - 1339s 55s/step - loss: 0.6135 - accuracy: 0.8368 - val_loss: 0.9526 - val_accuracy: 0.0909
 Epoch 2/5
@@ -374,6 +380,8 @@ Epoch 5/5
 Train Accuracy:0.905
 Test Accuracy:0.091
 
+```
+
 
 <img src="https://raw.githubusercontent.com/Saruj-chy/collab_code_practice/main/CNN%20using%20in%20Snake%20Dataset/graph_sample.PNG" alt="Convulational Model Train and Validation Loss and Accuracy History" title="Optional title">
 
@@ -381,6 +389,9 @@ Test Accuracy:0.091
 ```
 model=applications.VGG16(weights="imagenet", include_top=False, input_shape=(WIDTH, HEIGHT, 3))
 model.summary()
+```
+
+# Output
 ```
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/vgg16/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5
 58889256/58889256 [==============================] - 0s 0us/step
@@ -430,7 +441,7 @@ _________________________________________________________________
 Total params: 14,714,688
 Trainable params: 14,714,688
 Non-trainable params: 0
-
+```
 
 ```
 counter=0
@@ -493,7 +504,8 @@ print("Classification Report:\n",metrics.classification_report(y_test, y_pred, t
 ```
 
 
-
+# Output
+```
 Accuracy: 0.6743421052631579
 Confusion Matrix:
  [[ 40   1   2   2   0   2   0   0   0   2   1]
@@ -526,7 +538,7 @@ greater_black_krait       0.51      0.44      0.47        66
           macro avg       0.61      0.60      0.60       912
        weighted avg       0.67      0.67      0.67       912
 
-
+```
 
 
 
