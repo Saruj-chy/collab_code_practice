@@ -9,8 +9,3 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 ```
-
-```
-from vision_transformer_pytorch import VisionTransformer
-model = VisionTransformer.from_pretrained('ViT-B_16')
-```
