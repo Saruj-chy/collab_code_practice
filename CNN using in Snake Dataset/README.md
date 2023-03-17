@@ -58,17 +58,18 @@ dataset['target']=targets
 dataset.head(10)
 ```
 
-    |	image_path |	target |
-0   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-1   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-2   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-3   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-4   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-5   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-6   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-7   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-8   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
-9   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   SL  |	            image_path                              |	    target        |
+| ------| ----------------------------------------------------- | ------------------- |
+|   0   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   1   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   2   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   3   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   4   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   5   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   6   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   7   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   8   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
+|   9   |  	./drive/MyDrive/Snake_Dataset_All_In_One_Folde...   |  		walls_krait   |  	
 
 
 
