@@ -505,7 +505,7 @@ print("Classification Report:\n",metrics.classification_report(y_test, y_pred, t
 
 
 # Output
-```
+`
 Accuracy: 0.6743421052631579
 Confusion Matrix:
  [[ 40   1   2   2   0   2   0   0   0   2   1]
@@ -538,7 +538,7 @@ greater_black_krait       0.51      0.44      0.47        66
           macro avg       0.61      0.60      0.60       912
        weighted avg       0.67      0.67      0.67       912
 
-```
+`
 
 
 
