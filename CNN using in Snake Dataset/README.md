@@ -180,8 +180,8 @@ show_gallery(show="walls_krait")
 show_gallery(show="both")
 ```
 
-<img src="" alt="Alt text" title="Optional title">
-<img src="" alt="Alt text" title="Optional title">
+<img src="https://raw.githubusercontent.com/Saruj-chy/collab_code_practice/main/CNN%20using%20in%20Snake%20Dataset/sample1.PNG" alt="Smaples of images" title="Optional title">
+<img src="https://raw.githubusercontent.com/Saruj-chy/collab_code_practice/main/CNN%20using%20in%20Snake%20Dataset/sample2.PNG" alt="Smaples of Images" title="Optional title">
 
 ```
 def show_model_history(modelHistory, model_name):
@@ -227,6 +227,7 @@ model.add(layers.Dropout(0.5))
 model.add(layers.Dense(1, activation="sigmoid"))
 model.summary()
 ```
+``
 
 Model: "sequential"
 _________________________________________________________________
@@ -294,6 +295,7 @@ Trainable params: 1,218,529
 Non-trainable params: 576
 _________________________________________________________________
 
+``
 
 ```
 model.compile(loss="binary_crossentropy", 
@@ -373,7 +375,7 @@ Train Accuracy:0.905
 Test Accuracy:0.091
 
 
-<img src="" alt="Alt text" title="Optional title">
+<img src="https://raw.githubusercontent.com/Saruj-chy/collab_code_practice/main/CNN%20using%20in%20Snake%20Dataset/graph_sample.PNG" alt="Convulational Model Train and Validation Loss and Accuracy History" title="Optional title">
 
 
 ```
